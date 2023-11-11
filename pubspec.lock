@@ -286,14 +286,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_facebook_sdk:
+  flutter_facebook_pro:
     dependency: "direct main"
     description:
-      name: flutter_facebook_sdk
-      sha256: "1068a0a4ab15781a1e0478bb5dd46d17c588af4233b0935757febfb0d041c9f2"
+      name: flutter_facebook_pro
+      sha256: "63ccabd409e4f06ab1517fd144e3590e015190f33f443d4732b9094809f4bba6"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.5"
   flutter_launcher_icons:
     dependency: "direct main"
     description:
