@@ -1,0 +1,75 @@
+PODS:
+  - FBSDKCoreKit (9.1.0):
+    - FBSDKCoreKit/Basics (= 9.1.0)
+    - FBSDKCoreKit/Core (= 9.1.0)
+  - FBSDKCoreKit/Basics (9.1.0)
+  - FBSDKCoreKit/Core (9.1.0):
+    - FBSDKCoreKit/Basics
+  - Flutter (1.0.0)
+  - flutter_facebook_pro (0.0.1):
+    - FBSDKCoreKit (~> 9.1.0)
+    - Flutter
+  - flutter_native_splash (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqlite3 (3.43.1):
+    - sqlite3/common (= 3.43.1)
+  - sqlite3/common (3.43.1)
+  - sqlite3/fts5 (3.43.1):
+    - sqlite3/common
+  - sqlite3/perf-threadsafe (3.43.1):
+    - sqlite3/common
+  - sqlite3/rtree (3.43.1):
+    - sqlite3/common
+  - sqlite3_flutter_libs (0.0.1):
+    - Flutter
+    - sqlite3 (~> 3.43.1)
+    - sqlite3/fts5
+    - sqlite3/perf-threadsafe
+    - sqlite3/rtree
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_facebook_pro (from `.symlinks/plugins/flutter_facebook_pro/ios`)
+  - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqlite3_flutter_libs (from `.symlinks/plugins/sqlite3_flutter_libs/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FBSDKCoreKit
+    - sqlite3
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_facebook_pro:
+    :path: ".symlinks/plugins/flutter_facebook_pro/ios"
+  flutter_native_splash:
+    :path: ".symlinks/plugins/flutter_native_splash/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqlite3_flutter_libs:
+    :path: ".symlinks/plugins/sqlite3_flutter_libs/ios"
+
+SPEC CHECKSUMS:
+  FBSDKCoreKit: a00fe2efd780c195a5e09201bf51c56106245b40
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_facebook_pro: a0f10cdea426369f2699489bde26957be3389e02
+  flutter_native_splash: 52501b97d1c0a5f898d687f1646226c1f93c56ef
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
+  sqlite3: e0a0623a33a20a47cb5921552aebc6e9e437dc91
+  sqlite3_flutter_libs: 0d61e18fab1bed977dbd2d2fc76a726044ca00e7
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.14.3

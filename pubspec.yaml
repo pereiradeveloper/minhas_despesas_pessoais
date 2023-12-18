@@ -53,7 +53,9 @@ dependencies:
   collection: ^1.17.2
   flutter_native_splash: ^2.3.3
   flutter_launcher_icons: ^0.13.1
-  flutter_facebook_pro: ^1.0.5
+  flutter_facebook_pro:
+    git:
+      url: https://github.com/abdoosaed/flutter_facebook_pro.git
 
 flutter_native_splash:
   image: "assets/images/orcamento.png"
